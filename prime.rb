@@ -1,6 +1,5 @@
 
 def prime?(n)
-  # P3 = 6*k + {5, 7}
   return n | 1 == 3 if n < 5
   return false if n.gcd(6) != 1
   p, sqrtn = 5, Integer.sqrt(n)           
