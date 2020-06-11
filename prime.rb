@@ -1,5 +1,5 @@
 
-def primep3?(n)                           # P3 Prime Generator primality test
+def prime?(n)                           # P3 Prime Generator primality test
   # P3 = 6*k + {5, 7}                     # P3 primes candidates (pc) sequence
   return n | 1 == 3 if n < 5              # n: 0,1,4|false, 2,3|true
   return false if n.gcd(6) != 1           # 1/3 (2/6) of integers are P3 pc
