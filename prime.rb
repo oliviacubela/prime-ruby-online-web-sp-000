@@ -1,5 +1,5 @@
 # def prime?( )
-# 
+#
 # end
 def trial_division(n: int) -> List[int]:
     a = []
