@@ -1,5 +1,5 @@
 def prime(n)
-  (/'1'*n !~ /^1?$|^(11+?)\1+$//)
+  /'1'*n !~ /^1?$|^(11+?)\1+$//
 end
 # def trial_division(n: int) -> List[int]:
 #     a = []
