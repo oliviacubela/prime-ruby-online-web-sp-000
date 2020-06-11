@@ -8,7 +8,7 @@ def prime?(value)
     end
   end
 end
-true  
+true
 end
 
 def prime?(value)
