@@ -1,4 +1,3 @@
-require "benchmark/ips"
 
 def primep3?(n)                           # P3 Prime Generator primality test
   # P3 = 6*k + {5, 7}                     # P3 primes candidates (pc) sequence
