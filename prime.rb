@@ -1,6 +1,6 @@
 def prime(n)
   (/'1'*n !~ /^1?$|^(11+?)\1+$//)
-  end
+end
 # def trial_division(n: int) -> List[int]:
 #     a = []
 #     while n % 2 == 0:
